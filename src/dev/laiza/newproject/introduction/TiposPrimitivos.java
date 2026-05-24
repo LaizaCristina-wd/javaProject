@@ -6,17 +6,18 @@ public class TiposPrimitivos {
         int age = 10;
         long numeroGrande = 100000;
         double salarioDouble = 2000;
-        float salarioFloat = 5000;
+        float salarioFloat = (float) 5000.1D;
         byte idadeByte = 127;
         short idadeShort = 10;
         boolean verdadeiro = true;
         boolean falso = false;
         char caractere = '\u0041';
-
+        String nome = "Goku";
         System.out.println("A idade é "+age+" anos.");
         System.out.println(falso);
         System.out.println("char " + caractere);
         System.out.println(caractere);
-        System.out.println(caractere);
+        System.out.println(salarioFloat);
+        System.out.println("Oi meu nome é " +nome);
     }
 }
