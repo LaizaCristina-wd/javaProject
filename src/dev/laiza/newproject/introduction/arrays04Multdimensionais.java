@@ -11,9 +11,20 @@ public class arrays04Multdimensionais {
         dias[1][1] = 28;
         dias[1][2] = 31;
 
-        for (int i = 0; i > dias.length; i ++){
-            for (int j = 0; j < dias[0].length; j++){
-                System.out.println(dias[i][j]);
+        dias[2][0] = 31;
+        dias[2][1] = 28;
+        dias[2][2] = 31;
+
+        for (int i = 0; i < dias.length; i ++){
+            for (int j = 0; j < dias[i].length; j++){
+                System.out.println(  "i=" + i +
+                        " j=" + j +
+                        " valor=" + dias[i][j]);
+            }
+        }
+        for (int[] arrBase: dias){
+            for (int num: arrBase){
+                System.out.println(num);
             }
         }
     }
