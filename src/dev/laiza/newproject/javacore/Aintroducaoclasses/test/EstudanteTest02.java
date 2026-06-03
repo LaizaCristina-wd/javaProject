@@ -1,0 +1,18 @@
+package dev.laiza.newproject.javacore.Aintroducaoclasses.test;
+
+import dev.laiza.newproject.javacore.Aintroducaoclasses.dominio.Estudante;
+
+public class EstudanteTest02 {
+    public static void main(String[] args) {
+        Estudante estudante = new Estudante();
+        Estudante estudante2 = new Estudante();
+        estudante.nome= "CA";
+        System.out.println(estudante.idade);
+        System.out.println(estudante.sexo);
+        System.out.println(estudante.nome);
+
+        System.out.println(estudante2.idade);
+        System.out.println(estudante2.sexo);
+        System.out.println(estudante2.nome);
+    }
+}
